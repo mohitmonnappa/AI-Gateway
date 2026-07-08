@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Virtualenv
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Runtime logs (keep the folder, drop the contents)
+logs/*
+!logs/.gitkeep
