@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "prompt": "What is the capital of France?",
+    "label": "fast",
+    "rationale": "Pure factual lookup, single answer, no reasoning required."
+  },
+  {
+    "id": 2,
+    "prompt": "Define the term 'photosynthesis' in one sentence.",
+    "label": "fast",
+    "rationale": "Simple definition request, well-known concept, short output."
+  },
+  {
+    "id": 3,
+    "prompt": "Translate 'Good morning, how are you?' into Spanish.",
+    "label": "fast",
+    "rationale": "Short translation of a common phrase, no ambiguity."
+  },
+  {
+    "id": 4,
+    "prompt": "Is Python a compiled or interpreted language?",
+    "label": "fast",
+    "rationale": "Factual classification question with a clear, direct answer."
+  },
+  {
+    "id": 5,
+    "prompt": "What year was the Eiffel Tower built?",
+    "label": "fast",
+    "rationale": "Single factual date lookup."
+  },
+  {
+    "id": 6,
+    "prompt": "Summarise the following paragraph in one sentence: 'The Amazon rainforest, often referred to as the lungs of the Earth, produces approximately 20% of the world's oxygen and is home to an estimated 10% of all species on the planet.'",
+    "label": "fast",
+    "rationale": "Summarisation of provided text — no external reasoning needed, short output."
+  },
+  {
+    "id": 7,
+    "prompt": "What does HTTP stand for?",
+    "label": "fast",
+    "rationale": "Acronym expansion — pure factual recall."
+  },
+  {
+    "id": 8,
+    "prompt": "Is the number 97 a prime number?",
+    "label": "fast",
+    "rationale": "Simple arithmetic/factual check with a yes/no answer."
+  },
+  {
+    "id": 9,
+    "prompt": "List the seven continents.",
+    "label": "fast",
+    "rationale": "Fixed-list factual recall, no reasoning required."
+  },
+  {
+    "id": 10,
+    "prompt": "What colour do you get when you mix red and blue?",
+    "label": "fast",
+    "rationale": "Basic factual question, single-word answer."
+  },
+  {
+    "id": 11,
+    "prompt": "Write a Python function that takes a list of integers and returns the list sorted in descending order, with all duplicate values removed.",
+    "label": "capable",
+    "rationale": "Code generation with specific constraints — requires reasoning about sorting and deduplication."
+  },
+  {
+    "id": 12,
+    "prompt": "Explain the trade-offs between using a relational database and a NoSQL document store for a high-traffic e-commerce platform. Which would you recommend and why?",
+    "label": "capable",
+    "rationale": "Open-ended analysis requiring synthesis of multiple technical concepts and a justified recommendation."
+  },
+  {
+    "id": 13,
+    "prompt": "Prove that the square root of 2 is irrational.",
+    "label": "capable",
+    "rationale": "Mathematical proof requiring multi-step logical reasoning."
+  },
+  {
+    "id": 14,
+    "prompt": "I have a FastAPI endpoint that returns 422 Unprocessable Entity when I POST JSON with nested objects. Debug the likely causes and provide a fix.",
+    "label": "capable",
+    "rationale": "Debugging task requiring domain knowledge of FastAPI, Pydantic validation, and HTTP semantics."
+  },
+  {
+    "id": 15,
+    "prompt": "Design a data pipeline architecture for ingesting 10 million events per day from IoT sensors into a data warehouse. Walk me through each stage.",
+    "label": "capable",
+    "rationale": "Multi-step architecture design requiring synthesis of streaming, storage, and processing concepts."
+  },
+  {
+    "id": 16,
+    "prompt": "What are the ethical implications of deploying facial recognition technology in public spaces? Consider privacy, consent, bias, and law enforcement use cases.",
+    "label": "capable",
+    "rationale": "Multi-dimensional ethical analysis requiring reasoning across several competing frameworks."
+  },
+  {
+    "id": 17,
+    "prompt": "Refactor the following Python code to be more Pythonic and add proper type hints:\n\ndef get_evens(lst):\n    result = []\n    for i in range(len(lst)):\n        if lst[i] % 2 == 0:\n            result.append(lst[i])\n    return result",
+    "label": "capable",
+    "rationale": "Code refactoring task requiring understanding of Pythonic idioms, list comprehensions, and type annotations."
+  },
+  {
+    "id": 18,
+    "prompt": "Explain how transformer attention mechanisms work, and why multi-head attention is more powerful than single-head attention.",
+    "label": "capable",
+    "rationale": "Deep technical explanation requiring understanding of ML architecture concepts and comparative reasoning."
+  },
+  {
+    "id": 19,
+    "prompt": "A company has revenue of $500k in year 1 growing at 40% annually, with fixed costs of $200k/year and variable costs equal to 30% of revenue. In which year does it first achieve a cumulative profit of over $1 million? Show your working.",
+    "label": "capable",
+    "rationale": "Multi-step financial calculation requiring year-by-year computation and cumulative tracking."
+  },
+  {
+    "id": 20,
+    "prompt": "Compare and contrast microservices and monolithic architectures for a startup building an MVP. What should they choose, and what is the migration path if they need to switch later?",
+    "label": "capable",
+    "rationale": "Strategic architectural recommendation requiring reasoning about trade-offs, context (startup/MVP), and forward planning."
+  }
+]
